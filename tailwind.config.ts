@@ -1,5 +1,6 @@
 import type { Config } from 'tailwindcss';
 import type { PluginAPI } from 'tailwindcss/types/config';
+import { colors } from './src/styles/colors';
 
 export default {
   content: [
@@ -9,10 +10,7 @@ export default {
   ],
   theme: {
     extend: {
-      colors: {
-        background: 'var(--background)',
-        foreground: 'var(--foreground)',
-      },
+      colors,
       fontFamily: {
         sans: ['Pretendard', 'sans-serif'],
       },

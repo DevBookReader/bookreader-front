@@ -1,8 +1,8 @@
 export default function Typo() {
   return (
-    <div className="font-sans">
+    <div className="font-sans text-platinum-950">
       {/* 0.75rem */}
-      <p className="text-1-light">
+      <p className="text-1-light text-magenta-500">
         0.75rem (12px) Light (0.04px letterSpacing)
       </p>
       <p className="text-1-regular">
