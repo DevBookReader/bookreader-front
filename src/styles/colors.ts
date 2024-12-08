@@ -1,4 +1,4 @@
-export const colors = {
+const colors = {
   magenta: {
     950: '#580028',
     900: '#8F0C4A',
@@ -131,3 +131,5 @@ export const colors = {
   black: '#000000',
   white: '#FFFFFF',
 };
+
+export default colors;

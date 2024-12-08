@@ -1,6 +1,6 @@
 import type { Config } from 'tailwindcss';
 import type { PluginAPI } from 'tailwindcss/types/config';
-import { colors } from './src/styles/colors';
+import colors from './src/styles/colors';
 
 export default {
   content: [
@@ -34,7 +34,7 @@ export default {
     },
   },
   plugins: [
-    function ({ addComponents, theme }: PluginAPI) {
+    function fontPlugin({ addComponents, theme }: PluginAPI) {
       const fontSizes = theme('fontSize') || {};
       const fontWeights = theme('fontWeight') || {};
 

@@ -1,4 +1,4 @@
-export default function Typo() {
+export default function TypoPage() {
   return (
     <div className="font-sans text-platinum-950">
       {/* 0.75rem */}
