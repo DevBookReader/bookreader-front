@@ -1,13 +1,13 @@
 import IconIDTypes from '@/types/icon';
 import { SVGProps } from 'react';
 
-interface IIconProps {
+interface IconProps {
   id: IconIDTypes;
   size?: number | string;
   className?: string;
 }
 
-const Icon: React.FC<SVGProps<SVGSVGElement> & IIconProps> = ({
+const Icon: React.FC<SVGProps<SVGSVGElement> & IconProps> = ({
   id,
   size = '16',
   fill = 'black',
