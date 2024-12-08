@@ -12,12 +12,10 @@ const Icon: React.FC<SVGProps<SVGSVGElement> & Props> = ({
   size = '16',
   fill = 'black',
   ...props
-}) => {
-  return (
-    <svg width={size} height={size} {...props}>
-      <use href={`#${id}`} />
-    </svg>
-  );
-};
+}) => (
+  <svg width={size} height={size} fill={fill} {...props}>
+    <use href={`#${id}`} />
+  </svg>
+);
 
 export default Icon;
