@@ -1,7 +1,7 @@
-import { ActionsIconIDType } from '@/constants/icons/actions';
-import { CommonIconIDType } from '@/constants/icons/common';
-import { StatesIconIDType } from '@/constants/icons/states';
+import { ActionsIconID } from '@/constants/icons/actions';
+import { CommonIconID } from '@/constants/icons/common';
+import { StatesIconID } from '@/constants/icons/states';
 
-type IconIDTypes = StatesIconIDType | ActionsIconIDType | CommonIconIDType;
+type IconID = StatesIconID | ActionsIconID | CommonIconID;
 
-export default IconIDTypes;
+export default IconID;

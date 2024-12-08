@@ -1,4 +1,4 @@
-export type ActionsIconIDType = 'outline-search' | 'outline-write';
+export type ActionsIconID = 'outline-search' | 'outline-write';
 
 export const actionsSymbols = (
   <>

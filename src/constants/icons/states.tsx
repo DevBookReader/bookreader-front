@@ -1,4 +1,4 @@
-export type StatesIconIDType = 'outline-archive-spam';
+export type StatesIconID = 'outline-archive-spam';
 
 export const statesSymbols = (
   <>

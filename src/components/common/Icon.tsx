@@ -1,13 +1,13 @@
-import IconIDTypes from '@/types/icon';
+import IconID from '@/types/icon';
 import { SVGProps } from 'react';
 
-interface IconProps {
-  id: IconIDTypes;
+type Props = {
+  id: IconID;
   size?: number | string;
   className?: string;
-}
+};
 
-const Icon: React.FC<SVGProps<SVGSVGElement> & IconProps> = ({
+const Icon: React.FC<SVGProps<SVGSVGElement> & Props> = ({
   id,
   size = '16',
   fill = 'black',

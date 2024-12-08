@@ -1,4 +1,4 @@
-export type CommonIconIDType = 'outline-user';
+export type CommonIconID = 'outline-user';
 
 export const commonSymbols = (
   <>
