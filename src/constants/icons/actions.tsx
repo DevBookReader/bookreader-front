@@ -41,12 +41,12 @@ export const actionsSymbols = (
     <symbol
       id="iconset-chevron-left"
       viewBox="0 0 24 24"
-      fill="none"
+      fill="currentFill"
       xmlns="http://www.w3.org/2000/svg"
     >
       <path
         d="M15 6L9 12L15 18"
-        stroke="black"
+        stroke="currentStroke"
         strokeWidth="2"
         strokeLinecap="round"
       />
@@ -56,14 +56,14 @@ export const actionsSymbols = (
     <symbol
       id="iconset-arrow-up-right"
       viewBox="0 0 24 24"
-      fill="none"
+      fill="currentFill"
       xmlns="http://www.w3.org/2000/svg"
     >
       <path
         fillRule="evenodd"
         clipRule="evenodd"
         d="M6.29288 16.2929C5.90236 16.6834 5.90236 17.3166 6.29288 17.7071C6.68341 18.0976 7.31657 18.0976 7.7071 17.7071L16 9.41422L16 16C16 16.5523 16.4477 17 17 17C17.5523 17 18 16.5523 18 16L18 7.0031C18 7.00103 18 6.99897 18 6.99691V6L17.0004 6L17 6L16.9996 6L8 6C7.44771 6 7 6.44772 7 7C7 7.55229 7.44771 8 8 8L14.5858 8L6.29288 16.2929Z"
-        fill="black"
+        fill="currentFill"
       />
     </symbol>
 
@@ -71,12 +71,30 @@ export const actionsSymbols = (
     <symbol
       id="iconset-more"
       viewBox="0 0 24 24"
-      fill="none"
+      fill="currentFill"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <circle cx="12" cy="12" r="2" transform="rotate(90 12 12)" fill="black" />
-      <circle cx="12" cy="5" r="2" transform="rotate(90 12 5)" fill="black" />
-      <circle cx="12" cy="19" r="2" transform="rotate(90 12 19)" fill="black" />
+      <circle
+        cx="12"
+        cy="12"
+        r="2"
+        transform="rotate(90 12 12)"
+        fill="currentFill"
+      />
+      <circle
+        cx="12"
+        cy="5"
+        r="2"
+        transform="rotate(90 12 5)"
+        fill="currentFill"
+      />
+      <circle
+        cx="12"
+        cy="19"
+        r="2"
+        transform="rotate(90 12 19)"
+        fill="currentFill"
+      />
     </symbol>
   </>
 );
