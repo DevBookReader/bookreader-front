@@ -7,11 +7,12 @@
 @import '@fontsource/pretendard/500.css';
 @import '@fontsource/pretendard/700.css';
 
-:root {
-  --background: #ffffff;
+body {
+  font-family: Pretendard, sans-serif;
 }
 
-body {
-  background: var(--background);
-  font-family: Pretendard, sans-serif;
+@layer base {
+  :root {
+    --radius: 0.5rem;
+  }
 }
