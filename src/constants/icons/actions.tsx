@@ -42,6 +42,7 @@ export const actionsSymbols = (
       id="iconset-chevron-left"
       viewBox="0 0 24 24"
       fill="currentFill"
+      stroke="currentStroke"
       xmlns="http://www.w3.org/2000/svg"
     >
       <path
