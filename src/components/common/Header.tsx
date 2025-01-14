@@ -28,7 +28,11 @@ const Header: React.FC<Props> = ({
     <header className="h-14 flex items-center px-4 bg-white">
       {showBackButton && (
         <button onClick={onBackClick} className="mr-4">
-          <Icon id="iconset-chevron-left" size={24} />
+          <Icon
+            id="iconset-chevron-left"
+            size={24}
+            className="stroke-platinum-950 fill-none"
+          />
         </button>
       )}
       <div className={`flex-1 flex ${titlePosition}`}>
